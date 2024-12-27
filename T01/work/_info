@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/allison/intelFPGA/20.1/modelsim_ase/bin
+Et01_helloworldtb
+Z0 w1735309526
+!i122 5
+Z1 d/home/allison/Documents/VHDL_Tutorials/T01
+Z2 8/home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+Z3 F/home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+l0
+L1 1
+VC`FTKBhS@^k9gUTLdcLOZ1
+!s100 HEGSiL[47Io8oMcMGkPIE2
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1735309539
+!i10b 1
+Z6 !s108 1735309539.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd|
+!s107 /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Asim
+DEx4 work 16 t01_helloworldtb 0 22 C`FTKBhS@^k9gUTLdcLOZ1
+!i122 5
+l5
+L4 8
+VbF]Ef=7DUFlPb6QTUlLdg2
+!s100 59O^Z>ePhIlfdi9:>RISg0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd|
+!i113 1
+R8
+R9

@@ -1,0 +1,54 @@
+# Loading project T01
+# Compile of T01_HelloWorldTb.vhd failed with 1 errors.
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T01_HelloWorldTb
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(12): near "end": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T01_HelloWorldTb
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(11): near "end": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T01_HelloWorldTb
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(11): near "end": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T01_HelloWorldTb
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(11): near "end": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T01_HelloWorldTb
+# 
+# 
+vsim work.t01_helloworldtb
+# vsim work.t01_helloworldtb 
+# Start time: 09:28:37 on Dec 27,2024
+# Loading std.standard
+# Loading work.t01_helloworldtb(sim)
+run
+# ** Note: Hello World
+#    Time: 0 ps  Iteration: 0  Instance: /t01_helloworldtb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Note: Hello World
+#    Time: 0 ps  Iteration: 0  Instance: /t01_helloworldtb
