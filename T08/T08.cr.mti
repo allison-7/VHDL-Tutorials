@@ -1,0 +1,7 @@
+/home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity T08_IfTb
+-- Compiling architecture sim of T08_IfTb
+
+} {} {}}

@@ -1,0 +1,7 @@
+/home/allison/Documents/VHDL_Tutorials/T04/T04_ForLoopTb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T04/T04_ForLoopTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity T04_ForLoopTb
+-- Compiling architecture sim of T04_ForLoopTb
+
+} {} {}}

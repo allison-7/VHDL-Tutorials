@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/allison/Documents/VHDL_Tutorials/T04
+Et05_whilelooptb
+Z0 w1740322877
+!i122 1
+Z1 d/home/allison/Documents/VHDL_Tutorials/T05
+Z2 8/home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd
+Z3 F/home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd
+l0
+L1 1
+V^[@cMAP9AGI1;@9beJ[?F3
+!s100 _SP8YKZcAlJ]e;S;7ZAa@0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1740322881
+!i10b 1
+Z6 !s108 1740322881.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd|
+!s107 /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Asim
+DEx4 work 15 t05_whilelooptb 0 22 ^[@cMAP9AGI1;@9beJ[?F3
+!i122 1
+l5
+L4 12
+Vg9LiN1a;]KZ?QH^]75gR?1
+!s100 0VGUDXY=CSeT0dFJ9lkiP2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd|
+!i113 1
+R8
+R9

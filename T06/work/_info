@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/allison/Documents/VHDL_Tutorials/T05
+Et06_signaltb
+Z0 w1740323247
+!i122 0
+Z1 d/home/allison/Documents/VHDL_Tutorials/T06
+Z2 8/home/allison/Documents/VHDL_Tutorials/T06/T06_SignalTb.vhd
+Z3 F/home/allison/Documents/VHDL_Tutorials/T06/T06_SignalTb.vhd
+l0
+L1 1
+V<E1V1>9hILcgY4CMQM]=D3
+!s100 9Oz[^S50m:LNznFQiinAF0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1740324135
+!i10b 1
+Z6 !s108 1740324135.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/allison/Documents/VHDL_Tutorials/T06/T06_SignalTb.vhd|
+!s107 /home/allison/Documents/VHDL_Tutorials/T06/T06_SignalTb.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Asim
+DEx4 work 12 t06_signaltb 0 22 <E1V1>9hILcgY4CMQM]=D3
+!i122 0
+l6
+L4 14
+V[GF;XTP<[LciMoJ0aG>a>0
+!s100 X:;]n`ckd=SJ_L5>X49U41
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 /home/allison/Documents/VHDL_Tutorials/T06/T06_SignalTb.vhd|
+!i113 1
+R8
+R9

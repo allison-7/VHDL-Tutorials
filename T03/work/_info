@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/allison/Documents/VHDL_Tutorials/T02
+Et03_looptb
+Z0 w1740321964
+!i122 1
+Z1 d/home/allison/Documents/VHDL_Tutorials/T03
+Z2 8/home/allison/Documents/VHDL_Tutorials/T03/T03_LoopTb.vhd
+Z3 F/home/allison/Documents/VHDL_Tutorials/T03/T03_LoopTb.vhd
+l0
+L1 1
+Vc]<V`NZHIc;KI>;S>21@[3
+!s100 =8[oh4mA;G2@iDOko@?mR3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1740321971
+!i10b 1
+Z6 !s108 1740321971.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/allison/Documents/VHDL_Tutorials/T03/T03_LoopTb.vhd|
+Z8 !s107 /home/allison/Documents/VHDL_Tutorials/T03/T03_LoopTb.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Asim
+Z11 DEx4 work 10 t03_looptb 0 22 c]<V`NZHIc;KI>;S>21@[3
+!i122 1
+l5
+Z12 L4 13
+V>mD[Of1BS?YKWNgP2Z<RW3
+!s100 ]`dD[LQjn2<U_]TH]NH<50
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10

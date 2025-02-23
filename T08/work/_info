@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/allison/Documents/VHDL_Tutorials/T07
+Et08_iftb
+Z0 w1740325142
+!i122 0
+Z1 d/home/allison/Documents/VHDL_Tutorials/T08
+Z2 8/home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd
+Z3 F/home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd
+l0
+L1 1
+V9gOUnm;V:5ge9dabSRh[Q0
+!s100 Zid8T_ST:3>93naCfbJiD3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1740325206
+!i10b 1
+Z6 !s108 1740325206.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd|
+!s107 /home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Asim
+DEx4 work 8 t08_iftb 0 22 9gOUnm;V:5ge9dabSRh[Q0
+!i122 0
+l7
+L4 25
+VGV[?G7lRR`BIjmYc7:`B>2
+!s100 =Ee[O3KOAZ>h5^IXVafT@3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 /home/allison/Documents/VHDL_Tutorials/T08/T08_IfTb.vhd|
+!i113 1
+R8
+R9

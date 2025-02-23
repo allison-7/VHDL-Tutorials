@@ -1,0 +1,317 @@
+# Loading project T03
+vsim work.t03_looptb
+# vsim work.t03_looptb 
+# Start time: 09:40:49 on Feb 23,2025
+# Loading std.standard
+# Loading work.t03_looptb(sim)
+run
+# ** Note: Hello
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 10 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 20 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 30 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 40 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 50 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 60 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 70 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 80 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 90 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 100 ns  Iteration: 0  Instance: /t03_looptb
+quit -sim
+# End time: 09:43:29 on Feb 23,2025, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 1
+vsim work.t03_looptb
+# vsim work.t03_looptb 
+# Start time: 09:43:36 on Feb 23,2025
+# Loading std.standard
+# Loading work.t03_looptb(sim)
+quit -sim
+# End time: 09:45:08 on Feb 23,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 1
+# Compile of T03_LoopTb.vhd was successful.
+vsim work.t03_looptb
+# vsim work.t03_looptb 
+# Start time: 09:46:22 on Feb 23,2025
+# Loading std.standard
+# Loading work.t03_looptb(sim)
+run
+# ** Note: Hello
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Goodbye
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+quit -sim
+# End time: 09:52:01 on Feb 23,2025, Elapsed time: 0:05:39
+# Errors: 0, Warnings: 2
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T04
+# Compile of T04_ForLoopTb.vhd was successful with warnings.
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T04/T04_ForLoopTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T04_ForLoopTb
+# -- Compiling architecture sim of T04_ForLoopTb
+# ** Warning: /home/allison/Documents/VHDL_Tutorials/T04/T04_ForLoopTb.vhd(11): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T04/T04_ForLoopTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T04_ForLoopTb
+# -- Compiling architecture sim of T04_ForLoopTb
+# 
+# 
+vsim work.t04_forlooptb
+# vsim work.t04_forlooptb 
+# Start time: 09:56:02 on Feb 23,2025
+# Loading std.standard
+# Loading work.t04_forlooptb(sim)
+run
+# ** Note: i=1
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=2
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=3
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=4
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=5
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=6
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=7
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=8
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=9
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+# ** Note: i=10
+#    Time: 0 ps  Iteration: 0  Instance: /t04_forlooptb
+quit -sim
+# End time: 09:59:40 on Feb 23,2025, Elapsed time: 0:03:38
+# Errors: 0, Warnings: 8
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T05
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T05_WhileLoopTb
+# -- Compiling architecture sim of T05_WhileLoopTb
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(8): (vcom-1136) Unknown identifier "i".
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(8): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(9): (vcom-1136) Unknown identifier "i".
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(10): (vcom-1136) Unknown identifier "i".
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(10): (vcom-1136) Unknown identifier "i".
+# ** Error: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(10): Bad right hand side (infix expression) in variable assignment.
+# ** Note: /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd(14): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T05/T05_WhileLoopTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T05_WhileLoopTb
+# -- Compiling architecture sim of T05_WhileLoopTb
+# 
+# 
+vsim work.t05_whilelooptb
+# vsim work.t05_whilelooptb 
+# Start time: 10:01:31 on Feb 23,2025
+# Loading std.standard
+# Loading work.t05_whilelooptb(sim)
+run
+# ** Note: i=0
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=1
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=2
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=3
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=4
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=5
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=6
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=7
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=8
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i=9
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+quit -sim
+# End time: 10:02:43 on Feb 23,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 7
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T06
+# Compile of T06_SignalTb.vhd was successful.
+vsim work.t06_signaltb
+# vsim work.t06_signaltb 
+# Start time: 10:22:26 on Feb 23,2025
+# Loading std.standard
+# Loading work.t06_signaltb(sim)
+run
+# ** Note: MyVariable=1
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=3
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=5
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=7
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=9
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=11
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MySignal=10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+quit -sim
+# End time: 10:25:24 on Feb 23,2025, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 5
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T07
+# Compile of T07_WaitOnUntilTb.vhd was successful.
+vsim work.t07_waitonuntiltb
+# vsim work.t07_waitonuntiltb 
+# Start time: 10:32:28 on Feb 23,2025
+# Loading std.standard
+# Loading work.t07_waitonuntiltb(sim)
+run
+# ** Note: CountUp=1CountDown=9
+#    Time: 0 ps  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=2CountDown=8
+#    Time: 10 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=3CountDown=7
+#    Time: 20 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=4CountDown=6
+#    Time: 30 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=5CountDown=5
+#    Time: 40 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=6CountDown=4
+#    Time: 50 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=7CountDown=3
+#    Time: 60 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=8CountDown=2
+#    Time: 70 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=9CountDown=1
+#    Time: 80 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=10CountDown=0
+#    Time: 90 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=11CountDown=-1
+#    Time: 100 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+quit -sim
+# End time: 10:34:42 on Feb 23,2025, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 5
+# Compile of T07_WaitOnUntilTb.vhd was successful.
+vsim work.t07_waitonuntiltb
+# vsim work.t07_waitonuntiltb 
+# Start time: 10:34:56 on Feb 23,2025
+# Loading std.standard
+# Loading work.t07_waitonuntiltb(sim)
+run
+# ** Note: CountUp=1CountDown=9
+#    Time: 0 ps  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=2CountDown=8
+#    Time: 10 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=3CountDown=7
+#    Time: 20 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=4CountDown=6
+#    Time: 30 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=5CountDown=5
+#    Time: 40 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: Jackpot
+#    Time: 40 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=6CountDown=4
+#    Time: 50 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=7CountDown=3
+#    Time: 60 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=8CountDown=2
+#    Time: 70 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=9CountDown=1
+#    Time: 80 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=10CountDown=0
+#    Time: 90 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+# ** Note: CountUp=11CountDown=-1
+#    Time: 100 ns  Iteration: 1  Instance: /t07_waitonuntiltb
+quit -sim
+# End time: 10:39:14 on Feb 23,2025, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 2
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T08
+# Compile of T08_IfTb.vhd was successful.
+vsim work.t08_iftb
+# vsim work.t08_iftb 
+# Start time: 10:40:16 on Feb 23,2025
+# Loading std.standard
+# Loading work.t08_iftb(sim)
+run
+# ** Note: CountDown is larger
+#    Time: 0 ps  Iteration: 0  Instance: /t08_iftb
+# ** Note: CountDown is larger
+#    Time: 0 ps  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountDown is larger
+#    Time: 10 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountDown is larger
+#    Time: 20 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountDown is larger
+#    Time: 30 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: They are equal
+#    Time: 40 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountUp is larger
+#    Time: 50 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountUp is larger
+#    Time: 60 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountUp is larger
+#    Time: 70 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountUp is larger
+#    Time: 80 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountUp is larger
+#    Time: 90 ns  Iteration: 1  Instance: /t08_iftb
+# ** Note: CountUp is larger
+#    Time: 100 ns  Iteration: 1  Instance: /t08_iftb
+quit -sim
+# End time: 10:40:42 on Feb 23,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 5

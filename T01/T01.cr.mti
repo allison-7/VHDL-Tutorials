@@ -1,0 +1,7 @@
+/home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity T01_HelloWorldTb
+-- Compiling architecture sim of T01_HelloWorldTb
+
+} {} {}}

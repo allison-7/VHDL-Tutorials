@@ -1,54 +1,172 @@
 # Loading project T01
-# Compile of T01_HelloWorldTb.vhd failed with 1 errors.
-# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T02
+# Compile of T02_WaitForTb.vhd was successful.
+# Compile of T02_WaitForTb.vhd was successful with warnings.
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
 # -- Compiling entity T01_HelloWorldTb
 # -- Compiling architecture sim of T01_HelloWorldTb
-# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(12): near "end": (vcom-1576) expecting ';'.
+# ** Warning: /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd(9): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Compiling entity T01_HelloWorldTb
-# -- Compiling architecture sim of T01_HelloWorldTb
-# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(11): near "end": (vcom-1576) expecting ';'.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Compiling entity T01_HelloWorldTb
-# -- Compiling architecture sim of T01_HelloWorldTb
-# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(11): near "end": (vcom-1576) expecting ';'.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Compiling entity T01_HelloWorldTb
-# -- Compiling architecture sim of T01_HelloWorldTb
-# ** Error: /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd(11): near "end": (vcom-1576) expecting ';'.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T01/T01_HelloWorldTb.vhd
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
 # -- Compiling entity T01_HelloWorldTb
 # -- Compiling architecture sim of T01_HelloWorldTb
 # 
 # 
-vsim work.t01_helloworldtb
-# vsim work.t01_helloworldtb 
-# Start time: 09:28:37 on Dec 27,2024
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T02_WaitForTb
+# ** Error: (vcom-11) Could not find work.t02_waitfortb.
+# ** Note: /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd(4): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T01_HelloWorldTb
+# -- Compiling architecture sim of T02_WaitForTb
+# ** Error: (vcom-11) Could not find work.t02_waitfortb.
+# ** Note: /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd(4): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none /home/allison/Documents/VHDL_Tutorials/T02/T02_WaitForTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T02_WaitForTb
+# -- Compiling architecture sim of T02_WaitForTb
+# 
+# 
+vsim work.t02_waitfortb
+# vsim work.t02_waitfortb 
+# Start time: 09:30:16 on Feb 23,2025
 # Loading std.standard
-# Loading work.t01_helloworldtb(sim)
+# Loading work.t02_waitfortb(sim)
 run
-# ** Note: Hello World
-#    Time: 0 ps  Iteration: 0  Instance: /t01_helloworldtb
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: Peekaboo
+#    Time: 0 ps  Iteration: 0  Instance: /t02_waitfortb
 run
-# ** Note: Hello World
-#    Time: 0 ps  Iteration: 0  Instance: /t01_helloworldtb
+# ** Note: Peekaboo
+#    Time: 10 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 20 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 30 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 40 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 50 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 60 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 70 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 80 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 90 ns  Iteration: 0  Instance: /t02_waitfortb
+# ** Note: Peekaboo
+#    Time: 100 ns  Iteration: 0  Instance: /t02_waitfortb
+quit sim
+# unknown switch: sim
+# Break key hit
+quit-sim
+# invalid command name "quit-sim"
+quit -sim
+# End time: 09:37:13 on Feb 23,2025, Elapsed time: 0:06:57
+# Errors: 0, Warnings: 13
+# reading /home/allison/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project T03
+# Compile of T03_LoopTb.vhd was successful.
+vsim work.t03_looptb
+# vsim work.t03_looptb 
+# Start time: 09:38:18 on Feb 23,2025
+# Loading std.standard
+# Loading work.t03_looptb(sim)
+run
+# ** Note: Hello
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 10 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 20 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 30 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 40 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 50 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 60 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 70 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 80 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 90 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 100 ns  Iteration: 0  Instance: /t03_looptb
+run
+# ** Note: Peekaboo
+#    Time: 110 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 120 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 130 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 140 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 150 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 160 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 170 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 180 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 190 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 200 ns  Iteration: 0  Instance: /t03_looptb
+quit -sim
+# End time: 09:39:44 on Feb 23,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 5
+vsim work.t03_looptb
+# vsim work.t03_looptb 
+# Start time: 09:39:55 on Feb 23,2025
+# Loading std.standard
+# Loading work.t03_looptb(sim)
+run
+# ** Note: Hello
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 0 ps  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 10 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 20 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 30 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 40 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 50 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 60 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 70 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 80 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 90 ns  Iteration: 0  Instance: /t03_looptb
+# ** Note: Peekaboo
+#    Time: 100 ns  Iteration: 0  Instance: /t03_looptb
+quit -sim
+# End time: 09:40:18 on Feb 23,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
